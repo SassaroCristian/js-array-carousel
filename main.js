@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   
     prevButton.addEventListener("click", () => {
-      if (currentIndex > 0) {z
+      if (currentIndex > 0) {
         goToSlide(currentIndex - 1);
       } else {
         goToSlide(4); 
