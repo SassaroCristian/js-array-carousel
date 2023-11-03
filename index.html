@@ -11,25 +11,33 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="carousel-container">
-            <div id="carousel-slide" class="active"> 
-                <img class="size" src="img/01.webp" alt="Immagine 1">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div id="carousel-slide" class="active">
+                <img src="img/01.webp" class="" alt="...">
+              </div>
+              <div id="carousel-slide" class="">
+                <img src="img/02.webp" class="" alt="...">
+              </div>
+              <div id="carousel-slide" class="">
+                <img src="img/03.webp" class="" alt="...">
+              </div>
+              <div id="carousel-slide" class="">
+                <img src="img/04.webp" class="" alt="...">
+              </div>
+              <div id="carousel-slide" class="">
+                <img src="img/05.webp" class="" alt="...">
+              </div>
             </div>
-            <div id="carousel-slide" class=""> 
-                <img class="size" src="img/02.webp" alt="Immagine 2">
-            </div>
-            <div id="carousel-slide" class=""> 
-                <img class="size" src="img/03.webp" alt="Immagine 3">
-            </div>
-            <div id="carousel-slide" class=""> 
-                <img class="size" src="img/04.webp" alt="Immagine 4">
-            </div>
-            <div id="carousel-slide" class=""> 
-                <img class="size" src="img/05.webp" alt="Immagine 5">
-            </div>
-
-        <button class="carousel-button prev">↑</button>
-        <button class="carousel-button next">↓</button>
+            <button class="carousel-button prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-button next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </div>
     <script src="main.js"></script>
 </body>
